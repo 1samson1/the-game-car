@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>THE GAME CAR</title>
+    <link href="css/style.css" type="text/css" rel="stylesheet">
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="js/generation.js" defer></script>
+    <script type="text/javascript" src="js/core.js" defer></script>
+    <script type="text/javascript" src="js/controls.js" defer></script>
+    <script type="text/javascript" src="js/changeColorCar.js" defer></script>
+  </head>
+  <body>
+    <!-- game work on javascript -->
+    <div class="game">
+      <div id="score">
+          <div id="point"></div>
+          <div id="maxPoint"></div>
+      </div>
+      <div id="road">
+          <div id="roadLeft"></div>
+          <div id="roadRight"></div>
+      </div>
+      <div id = "gameOver">
+          <div id = "results">
+            <h2>GAME OVER</h2>
+            <p class="result"></p>
+            <p class="result"></p>
+            <span id ="replay">REPLAY</span>              
+          </div>
+          <div class="changeColorCar">
+            <div style="background: #41bf43;" class="colorCar"><div id ="checkOn">&#10004;</div></div>
+            <div style="background: yellow;" class="colorCar"></div>
+            <div style="background: blue;" class="colorCar"></div>
+            <div style="background: black;" class="colorCar"></div>
+            <div style="background: red;" class="colorCar"></div>
+            <div style="background: brown;" class="colorCar"></div>
+            <div style="background: orange;" class="colorCar"></div>
+            <div style="background: purple;" class="colorCar"></div>
+            <div style="background: white;" class="colorCar"></div>   
+          </div>
+      </div>
+    </div>
+  </body>
+</html>
